@@ -52,7 +52,6 @@ class LocalMangaSource(
 
     // Chapters
     override suspend fun getChapterList(manga: SManga): List<SChapter> {
-        return emptyList()
     }
 
     // Filters
